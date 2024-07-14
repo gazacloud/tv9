@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+<link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+
+<link href="https://unpkg.com/silvermine-videojs-quality-selector@1.1.2/dist/css/quality-selector.css" rel="stylesheet">
+
+<title>tv9</title>
+
+<style>
+
+body {
+background-image: url("https://pbs.twimg.com/media/GMgrY1zXgAAH-Nh?format=jpg&name=large"); 
+background-repeat: no-repeat; background-attachment: fixed; background-size: cover;
+}
+
+</style>
+
+</head>
+<body>
+
+<video id="videojs" class="video-js vjs-fluid vjs-default-skin vjs-big-play-centered" controls="" preload="auto" autoplay="" muted fluid="true">
+<source src="https://5bf7b725107e5.streamlock.net:443/tv9/tv9/playlist.m3u8"
+type="application/x-mpegURL">
+
+<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that 
+<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video> 
+
+<br><br></br>
+<center>
+<a href="https://chriseric1.github.io/" style="text-decoration:none"> 
+<img style="border-radius:8px" src="https://avatars.githubusercontent.com/u/1965106?s=50&v=4"></a>
+
+</center><br/>
+<script src="https://unpkg.com/video.js@7/dist/video.min.js"></script> 
+
+<script type="text/javascript">
+var player = videojs('videojs');
+</script>
+
+</body>
+</html>
